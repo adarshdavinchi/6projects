@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    margin: 20px;
+}
+
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+form label{
+    font: bolder;
+    font-weight: 300;
+}
+form input{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    height: 35px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    background: rgb(211, 30, 30);
+    color: wheat;
+}
+form input[type="submit"]:hover{
+    cursor: pointer;
+
+}
+
+.stop{
+    transition:1s;
+
+}
+
+.move{
+    transform: translateX(100%);
+}

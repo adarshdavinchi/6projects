@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving validation form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form" >
+        <h3>Please Submit this Form</h3>
+        <label for="name">Your Name</label>
+        <input type="name" name="name" id="name" placeholder="Fashmi singh Baghel" autocomplete="off">
+
+        <label for="advise"> Best life <b>advise</b>  you want to give -</label>
+        <input type="advise" name="advise" id="advise" placeholder="Ex-become wise like me.(ok but how!?)">
+
+        <!-- <input type="submit" value="Submit" id="submit"> -->
+        <button id="submit" onclick="alertButton()">Submit :)</button>
+        
+    </form>
+    
+    <script src="advise.js"></script>
+</body>
+</html>
